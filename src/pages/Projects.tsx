@@ -111,6 +111,7 @@ interface ProjectCardProps {
     tools: string[];
     image: string;
     liveUrl: string;
+    githubUrl: string;
   };
 }
 
@@ -167,7 +168,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               className="bg-white text-black hover:bg-gray-200 font-medium rounded-full px-4 py-1 h-8 text-xs"
             >
               <a
-                href={project.liveUrl}
+                href={project.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1"
