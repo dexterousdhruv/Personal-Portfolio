@@ -14,18 +14,16 @@ const projectData = [
   {
     title: "Expensify",
 
-    description: `ExpensiFy is a full-stack Expense Tracker and Budget Management System where users can register, log in, and manage their expenses and budgets. The application will allow users to categorize expenses, set budget limits, and generate reports in Ms-Excel.`,
+    description: `ExpensiFy is a full-stack Expense Tracker and Budget Management System where users can register, log in, and manage their expenses and budgets. It allows users to categorize expenses, set budget limits, and generate reports in Ms-Excel. Username: admin@dev.in  Password: admin123`,
     image: "./expensify.webp",
     tools: [
       "React-TS",
       "Express-TS",
       "Supabase",
       "PostgresSQL",
-      "Prisma ORM",
       "Shadcn UI",
       "Tanstack Query",
       "React-Hook-Form",
-      "Zod Validation",
     ],
     liveUrl: "https://expensi-fy-3urt.vercel.app/",
     githubUrl: "https://github.com/dexterousdhruv/Expensify",
@@ -33,7 +31,7 @@ const projectData = [
   {
     title: "Tech Crux",
 
-    description: `TechCrux is a full-stack project designed to deliver a seamless and dynamic blogging experience. Built with React and Redux Toolkit on the frontend, and powered by Node.js, Express, and MongoDB on the backend, this application provides robust blog management functionality and a clean user interface.`,
+    description: `TechCrux is a full-stack project designed to deliver a seamless and dynamic blogging experience. Built with React and Redux Toolkit on the frontend, and powered by Node.js, Express, and MongoDB on the backend, it provides robust blog management functionality and a clean user interface. Username: admin@dev.in  Password: admin123`,
     image: "./tech-crux.webp",
     tools: ["React.js", "Express.js", "Firebase", "MongoDB", "Flowbite"],
     liveUrl: "https://tech-crux-blog-app.pages.dev/",
@@ -51,9 +49,9 @@ const projectData = [
   {
     title: "Lets Meal",
 
-    description: `This is a food ordering UI web application built using React and React Redux and Tailwind. The purpose of this application was to learn effortless state management of complex state data using Redux Toolkit. `,
+    description: `This is a food ordering UI web application built using React, React Redux, Redux Toolkit and Tailwind. The purpose of this application was to learn effortless state management of complex state data using Redux Toolkit. `,
     image: "./lets-meal.webp",
-    tools: ["React.js", "Redux Toolkit"],
+    tools: ["React.js", "Redux Toolkit", "Tailwind CSS"],
     liveUrl: "https://lets-meal.netlify.app/",
     githubUrl: "https://github.com/dexterousdhruv/Lets-Meal-RTK",
   },
